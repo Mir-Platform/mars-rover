@@ -1,7 +1,10 @@
 import React, {useEffect, useReducer} from "react"
 
 import Rover from "./rover"
-import RoverReducer from "./rover-reducer"
+/*import RoverReducer from "./rover-reducer"*/
+const RoverReducer = (state) => {
+	return {...state}
+}
 import {EAST} from "./directions"
 import {MARS_HEIGHT, MARS_HEIGHT_SHIFT, ROVER_HEIGHT, ROVER_WIDTH} from "./settings"
 
